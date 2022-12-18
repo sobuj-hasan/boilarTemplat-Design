@@ -1,26 +1,16 @@
-@media only screen and (min-width: 991px) and (max-width: 1199px) {}
+@media only screen and (max-width: 1199px) {}
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (max-width: 991px) {
     .logo img {
         width: 215px;
-    }
-    .login-left {
-        height: 390px;
-    }
-    .training-section img {
-        display: none;
     }
 
 }
 
 @media only screen and (max-width: 767px) {
-    .training-section img {
-        display: none;
-    }
+    
+    
 }
-
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {}
 
 
 @media only screen and (max-width:575px) {
@@ -68,65 +58,7 @@
         padding: 15px 30px;
     }
     
-    /* header part css */
-    header {
-        height: 75px;
-    }
-    .logo img {
-        max-width: 160px;
-    }
-
-    .work-type .check-item .check i {
-        background: var(--bgc);
-        padding: 18px;
-        font-size: 18px;
-    }
-
-    .service-part .custom-btn {
-        padding: 8px 40px;
-        border: 1px solid var(--psb);
-        font-weight: 500;
-    }
-
-    .home-info-section .paragraph {
-        padding-left: 2%;
-        padding-right: 2%;
-        text-align: center;
-    }
-
-    .home-info-section .card .paragraph {
-        padding: 2px;
-    }
-
-    .training-section img {
-        display: none;
-    }
-
-    .testimonial-part .coma p {
-        padding-left: 2%;
-        padding-right: 2%;
-        line-height: 30px;
-    }
-
-    .subscribe-part .input-group > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
-        font-weight: 500;
-        font-size: 14px;
-    }
-
-    .subscribe-part .input-group .form-control {
-        font-size: 14px;
-    }
-    .subscribe-part .input-group .form-control::placeholder {
-        font-size: 14px;
-    }
-
-    .copyright-part p {
-        font-size: 15px;
-        line-height: 20px;
-    }
-    .copyright-part ul li a {
-        font-size: 14px;
-    }
+    
 
 }
 
@@ -170,66 +102,6 @@
         font-size: 16px;
         line-height: 20px;
         padding: 15px 30px;
-    }
-
-    /* header part css */
-    header {
-        height: 75px;
-    }
-    .logo img {
-        max-width: 160px;
-    }
-
-    .work-type .check-item .check i {
-        background: var(--bgc);
-        padding: 18px;
-        font-size: 18px;
-    }
-
-    .service-part .custom-btn {
-        padding: 8px 40px;
-        border: 1px solid var(--psb);
-        font-weight: 500;
-    }
-
-    .home-info-section .paragraph {
-        padding-left: 2%;
-        padding-right: 2%;
-        text-align: center;
-    }
-
-    .home-info-section .card .paragraph {
-        padding: 2px;
-    }
-
-    .training-section img {
-        display: none;
-    }
-
-    .testimonial-part .coma p {
-        padding-left: 2%;
-        padding-right: 2%;
-        line-height: 30px;
-    }
-
-    .subscribe-part .input-group > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
-        font-weight: 500;
-        font-size: 14px;
-    }
-
-    .subscribe-part .input-group .form-control {
-        font-size: 14px;
-    }
-    .subscribe-part .input-group .form-control::placeholder {
-        font-size: 14px;
-    }
-
-    .copyright-part p {
-        font-size: 15px;
-        line-height: 20px;
-    }
-    .copyright-part ul li a {
-        font-size: 14px;
     }
 
 
